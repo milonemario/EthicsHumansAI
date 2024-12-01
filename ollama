@@ -1,0 +1,26 @@
+# Use Ollama docker image
+
+# Create container for use on linux with GPU
+podman create --name ollama_gpu --gpus=all -v ~/ollama:/root/.ollama -p 11434:11434 ollama/ollama
+
+# Create container for use on linux with CPU
+podman create --name ollama -v ~/ollama:/root/.ollama -p 11434:11434 ollama/ollama
+
+# Start container
+podman start ollama_gpu
+# or
+podman start ollama
+
+# Serve the LLM
+# Once the container is running, the models will be served automatically when needed
+
+# Llama3.2 (3B)
+# podman exec -it ollama_gpu ollama run llama3.2
+
+
+# For use on Apple silicon: Do not use container (cannot use Metal)
+# Instead, install locally
+
+# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+
+

@@ -1,0 +1,9 @@
+**/.DS_Store
+**/__pycache__
+**/.jupyter
+**/.ipynb_checkpoints
+
+human_survey/data.csv
+**/*.ipynb
+**/*_API_KEY
+**/Results*
