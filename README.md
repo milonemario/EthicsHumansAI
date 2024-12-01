@@ -1,4 +1,4 @@
-# GitHub repository for the paper *Ethics, Human, AI*
+# GitHub repository for the paper *On Humans and AI: A Financial Reporting Dilemma*
 
 ## Data
 
