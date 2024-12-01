@@ -2,7 +2,7 @@
 
 ## Data
 
-The survey data for human subjects is available in the folder `human_survey`.
+The survey data for human subjects is available in the folder `human_survey`, and screenshots for the full survey are available in the folder `human_survey/screenshots`.
 
 The final dataset used for statistical analyses is `data_survey.csv`.
 
